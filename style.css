@@ -1,0 +1,45 @@
+body{
+  height: fit-content;
+  background-color: tan;
+  margin: 10px;
+  padding: auto;
+}
+
+form{
+  margin-bottom: 30px ;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+table , th , td {
+  border:1px solid black;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
